@@ -1,0 +1,21 @@
+div{
+    height: 200px;
+    width: 200px;
+    background: black;
+    transform: rotate(36000deg);
+    transition-delay: 5s; 
+    transition-duration: 10s;
+    transition-timing-function: ease-in-out;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transform: rotate(0deg);
+    transition: 2s ease-in-out, background-color 1s;
+  }
+div:hover{
+    transform: rotate(360deg);
+    background: red;
+    border-radius: 20%;
+}

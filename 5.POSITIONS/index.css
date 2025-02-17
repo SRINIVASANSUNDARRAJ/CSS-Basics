@@ -1,0 +1,33 @@
+section{
+    height: 103px;
+    width: 100%;
+    background: brown;
+    display: flex;
+    gap: 10px;
+    position: sticky;
+    top: 0; 
+}
+div{
+    height: 100px;
+    width: 100px;
+    background: green;
+    border: 3px solid black;
+}
+#div1{
+    position: static;
+    top: 100px;
+    left: 100px;
+} 
+/* #div2{
+    position: relative;
+    top: 100px;
+    left: 100px;
+ }  */
+ #div3{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+ } 
+ p{
+    text-align: justify;
+ }

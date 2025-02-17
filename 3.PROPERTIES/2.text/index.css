@@ -1,0 +1,23 @@
+h1{
+    color: crimson;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: coral;
+    text-shadow: 3px 3px 3px black;
+}
+h2{
+    text-decoration: overline;
+    text-align: center;
+    text-decoration-style: dotted;
+    text-decoration-thickness: inherit;
+}
+input{
+    text-overflow: ellipsis;
+    outline: none;
+}
+p{
+    text-align: justify;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}

@@ -1,0 +1,26 @@
+div{
+    background: black;
+    color: white;
+    text-align: center;
+    display: none;
+}
+@media screen and (max-width: 360px) {
+    #box1{
+        display: block;
+    }
+}
+@media (min-width: 361px) and (max-width: 700px) {
+    #box2{
+        display: block;
+    }
+}
+@media (min-width: 701px) and (max-width: 1200px) {
+    #box3{
+        display: block;
+    }
+}
+@media (min-width: 1201px) and (max-width: 15000px) {
+    #box4{
+        display: block;
+    }
+}

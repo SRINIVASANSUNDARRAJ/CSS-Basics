@@ -1,0 +1,15 @@
+p::before{
+    content: '😍';
+}
+p::after{
+    content: '🤣';
+}
+p::first-letter{
+    font-size: large;
+}
+p::first-line{
+    font-style: italic;
+}
+ul li::marker {
+    content: '😊';
+}

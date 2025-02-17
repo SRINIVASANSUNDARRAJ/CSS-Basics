@@ -1,0 +1,16 @@
+section{
+    height: 9auto;
+    width: 100%;
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+div{
+    height: 300px;
+    width: 200px;
+    background: green;
+    border: 1px solid orange;
+
+}

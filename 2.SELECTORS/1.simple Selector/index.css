@@ -1,0 +1,16 @@
+*{
+    text-align: center;
+}
+#head{
+    color: blue;
+}
+.nivas{
+    color: brown;
+}
+p{
+    color: yellowgreen;
+}
+span,i{
+    color: cadetblue;
+}
+

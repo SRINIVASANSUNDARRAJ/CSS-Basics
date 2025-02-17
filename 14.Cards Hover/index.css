@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.cards{
+    height: 300px;
+    width: 200px;
+    overflow: hidden;
+    box-shadow: 0 0 30px black;
+}
+img{
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+}
+img:hover{
+    transform: scale(1.4);
+    transition: all 2s;
+    filter: grayscale(100%);
+}
+.bio{
+    position: absolute;
+    opacity: 0;
+}
